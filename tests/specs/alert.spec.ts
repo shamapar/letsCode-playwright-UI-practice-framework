@@ -35,7 +35,7 @@ test('dismiss the alert', async ({ page }) => {
 
 })
 
-test.only('get prompt alert', async ({ page }) => {
+test('get prompt alert', async ({ page }) => {
     const alertPage = new AlertPage(page);
     page.on('dialog', dialog => {
         dialog.accept('shama')
