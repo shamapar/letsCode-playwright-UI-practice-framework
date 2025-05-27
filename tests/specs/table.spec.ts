@@ -17,7 +17,7 @@ test('adding my shopping list expense', async ({ page }) => {
     expect(await tablePage.shoppingItemPrice()).toEqual(858)
 })
 
-test.only('mark user as present from Simple table', async ({ page }) => {
+test('mark user as present from Simple table', async ({ page }) => {
     const tablePage = new TablePage(page);
     await tablePage.markUserPresent("Raj")
     await page.pause();
