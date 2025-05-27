@@ -1,0 +1,1 @@
+export type sortingTableMenu = "Dessert (100g)" | "Calories" | "Fat (g)" | "Protein (g)" | "Cholesterol(mg)"
